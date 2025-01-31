@@ -8,7 +8,7 @@ import Header from "@app/_components/header";
 import { useTaskStore } from "src/stores/task-store";
 
 
-export default function Content() {
+export default function Page() {
   const { data, isLoading, error } = useApiFetchFromQuery<ApiTasks>({
     url: '/api/tasks',
     key: "tasks",
