@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect } from "react";
-import { ApiTasks, TaskList } from "@models/tasks";
+import { ApiTasks } from "@models/tasks";
 import Body from "@app/_components/body";
 import { useApiFetchFromQuery } from "@hooks/useApiFetchFromQuery";
 import Header from "@app/_components/header";
@@ -26,10 +26,7 @@ export default function Content() {
   if (error) {
     return (
       <div className="app">
-        <Header />
-        <h2 className="py-20 text-xl font-bold">
-          Error
-        </h2>
+        <Header title="Error" />
       </div>
     );
   }
@@ -37,15 +34,10 @@ export default function Content() {
   if (isLoading) {
     return (
       <div className="app">
-        <Header />
-        <h2 className="py-20 text-xl font-bold">
-          Loading
-        </h2>
+        <Header title="Loading" />
       </div>
     );
   }
 
-
   return <Body />
-
 }

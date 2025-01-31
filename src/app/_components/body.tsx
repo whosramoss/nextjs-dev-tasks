@@ -28,7 +28,7 @@ export default function Body() {
     <div className="app">
       <FadeIn.Root>
         <FadeIn.Item>
-          <Header >
+          <Header title="Dev Tasks">
             <Button.Sort />
           </Header>
           <main className="main my-12">
