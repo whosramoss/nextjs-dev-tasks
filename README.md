@@ -4,7 +4,7 @@
 </a>
 
 <p align="center">
-  Streamlining productivity with a seamless task management system built on Next.js.
+  Streamlining productivity with a seamless task management system
 </p>
 
 <div align="center">
