@@ -17,7 +17,7 @@
   <img src="https://img.shields.io/badge/Prettier-242424?style=for-the-badge&logo=prettier" alt="Prettier">
   <img src="https://img.shields.io/badge/eslint-0170FE?style=for-the-badge&logo=eslint" alt="eslint">
   <img src="https://img.shields.io/badge/zod-242424?style=for-the-badge&logo=zod" alt="zod">
-   <img src="https://img.shields.io/badge/zustand-CC6699?style=for-the-badge&logo=React&logoColor=fff" alt="zustand">
+   <img src="https://img.shields.io/badge/zustand-563D7C?style=for-the-badge&logo=React&logoColor=fff" alt="zustand">
 </div>
 <br/>
 
